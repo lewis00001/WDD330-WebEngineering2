@@ -1,0 +1,96 @@
+html {
+    background-color: #554F59;
+    color: white;
+}
+
+img {
+    position: absolute;
+    width: 175px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 10px;
+    height: 55px;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.4;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 200;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+    color: rgb(23, 23, 78);
+}
+
+li {
+    line-height: 1.8em;
+    max-width: 355px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li:hover {
+    background-color: #ADA6A0;
+}
+
+li:hover > a {
+    color: #100806;
+}
+
+li:hover > a > span {
+    color: #100806;
+}
+
+.isDone {
+    font-size: 0.9em;
+    color: #95989D;
+    float: right;
+}
+
+.headerFooter {
+    background-color: #ADA6A0;
+    font-family: 'Zilla Slab', Times, serif;
+    padding: 1em;
+    border-radius: 8px;
+    color: #100806;
+}
+
+#name {
+    font-size: 2.8em;
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+#bodyDiv {
+    width: 800px;
+    margin: auto;
+}
+
+#content {
+    padding: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#byui {
+    color: white;
+}
+
+#lastUpdated {
+    color: gold;
+}
+
+.assgnLinks {
+    color: white;
+    text-decoration: none;
+}
