@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Lesson Portal',
             link: 'https://github.com/lewis00001/WDD330-WebEngineering2'
         },
-        {   week: '02.0',
+        {   week: '02.1',
             name: 'Team Activity',
             link: '#'
         },
-        {   week: '02.0',
+        {   week: '02.2',
             name: 'Exercises/Notes',
             link: '#'
         },
