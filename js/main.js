@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {   week: '02.1',
             name: 'Team Activity',
-            link: '#'
+            link: './assignments/week2Team.html'
         },
         {   week: '02.2',
             name: 'Exercises/Notes',
