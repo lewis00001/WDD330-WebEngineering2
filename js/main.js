@@ -2,11 +2,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     let assign = [
         {   week: '01.0',
-            name: 'assignment',
+            name: 'Lesson Portal',
+            link: 'https://github.com/lewis00001/WDD330-WebEngineering2'
+        },
+        {   week: '02.0',
+            name: 'Team Activity',
             link: '#'
         },
         {   week: '02.0',
-            name: 'assignment',
+            name: 'Exercises/Notes',
             link: '#'
         },
         {   week: '03.0',
@@ -63,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let ul = document.getElementById('assignments_ul');
     for (let i = 0; i < assign.length; i++) {
         ul.innerHTML += `<li><a class='assgnLinks' href=${assign[i].link} 
-        target='_blank'>Lesson ${assign[i].week} :: ${assign[i].name}</a></li>`;
+        target='_blank'>Week ${assign[i].week} :: ${assign[i].name}</a></li>`;
     };
     
     // create a var for the current year
