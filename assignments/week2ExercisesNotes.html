@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 - Exercises / Notes</title>
+</head>
+<body style="margin: 3% 4%; background-color: #ddd;">
+    <h2>Week 2 - Exercises / Notes</h2>
+
+    <h3>Open the console and use the instructions for the following functions.</h3>
+
+    <h4>Reverse Number</h4>
+    <p>Copy this function in the console and pass it a multi-digit whole number.</p>
+    <p>reverseNumOrder(); - like reverseNumOrder(12345);</p>
+
+    <h4>Palindrome Checker</h4>
+    <p>Copy this function in the console and pass it a number, word, or phrase.</p>
+    <p>isPalindrome(); - like isPalindrome("racecar");</p>
+
+    <h4>Number Data Callback Practice</h4>
+    <p>Copy this function in the console and pass it a number.</p>
+    <p>displayNumInfo(); - like displayNumInfo(20034);</p>
+
+    <script>
+        let reverseNumOrder = function(num) {
+	            let numString = num.toString();
+                let result = numString.split('').reverse().join('');
+                let toNum = parseInt(result);
+                console.log(toNum);
+        }            
+    
+        let isPalindrome = function(input) {
+            if (typeof(input) == "number") {
+                input = input.toString();
+            }
+            let strippedInput = input.replace(/[.,/#!$%^&*;:{}=-_`~()]/g, "").replace(/\s+/g,'');
+            let length = strippedInput.length;
+            if (length % 2 == 1) {
+                let firstHalf = strippedInput.substring(0, (length/2));
+                for (let i = 0; i < firstHalf.length; i++) {
+                    if(firstHalf[i] !== strippedInput[length - i - 1]) {
+                        console.log("Not a Palindrome");
+                        break;
+                    } else {
+                        console.log("It is a Palindrome!");
+                    }
+                }
+            } else {
+                let firstHalf = strippedInput.substring(0, (length/2 + 1));
+                for (let i = 0; i < firstHalf.length; i++) {
+                    if(firstHalf[i] !== strippedInput[length - i - 1]) {
+                        console.log("Not a Palindrome");
+                        break;
+                    } else {
+                        console.log("It is a Palindrome!");
+                    }
+                }
+            }
+        }
+        
+        let displayNumInfo = function(numInput) {
+            processNum(numInput, isEvenOdd);
+        }
+        
+        let processNum = function(num, isEvenOdd) {
+            if (typeof(num) == "string") {
+                console.log(`\'${num}\' is not a number.`);
+                return false;
+            } else {
+                console.log(`${num} is an ${isEvenOdd(num)} number.`);
+                return true;
+            }
+        }
+
+        function isEvenOdd(num) {
+            if (num % 2 == 0) {
+                return "even";
+            } else {
+                return "odd";
+            }
+        }
+
+    </script>
+</body>
+</html>
