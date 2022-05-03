@@ -13,9 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Exercises/Notes',
             link: './assignments/week2ExercisesNotes.html'
         },
-        {   week: '03.0',
-            name: 'assignment',
+        {   week: '03.1',
+            name: 'Team Activity',
             link: '#'
+        },
+        {   week: '03.2',
+            name: 'Exercises/Notes',
+            link: './assignments/week3ExercisesNotes.html'
         },
         {   week: '04.0',
             name: 'assignment',
