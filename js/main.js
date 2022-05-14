@@ -15,15 +15,19 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {   week: '03.1',
             name: 'Team Activity',
-            link: '#'
+            link: 'https://github.com/willhawkes/wdd330/blob/main/week3/Array%20Cardio.html'
         },
         {   week: '03.2',
             name: 'Exercises/Notes',
             link: './assignments/week3ExercisesNotes.html'
         },
-        {   week: '04.0',
-            name: 'assignment',
-            link: '#'
+        {   week: '04.1',
+            name: 'Team Activity',
+            link: './assignments/week4Team.html'
+        },
+        {   week: '04.2',
+            name: 'Exercises/Notes',
+            link: './assignments/week4ExercisesNotes.html'
         },
         {   week: '05.0',
             name: 'assignment',
