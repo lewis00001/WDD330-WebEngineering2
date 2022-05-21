@@ -29,11 +29,20 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Exercises/Notes',
             link: './assignments/week4ExercisesNotes.html'
         },
-        {   week: '05.0',
+        {   week: '05.1',
+            name: 'Team Activity',
+            link: '#'
+        },
+        {   
+            week: '05.2',
+            name: 'Exercises/Notes',
+            link: './assignments/week5ExercisesNotes.html'
+        },
+        {   week: '06.1',
             name: 'assignment',
             link: '#'
         },
-        {   week: '06.0',
+        {   week: '06.2',
             name: 'assignment',
             link: '#'
         },
