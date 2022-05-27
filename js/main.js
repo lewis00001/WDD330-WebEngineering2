@@ -39,12 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
             link: './assignments/week5ExercisesNotes.html'
         },
         {   week: '06.1',
-            name: 'assignment',
-            link: '#'
-        },
-        {   week: '06.2',
-            name: 'assignment',
-            link: '#'
+            name: 'Midterm - ToDo App',
+            link: './assignments/toDoApp.html'
         },
         {   week: '07.0',
             name: 'assignment',
