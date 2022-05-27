@@ -2,6 +2,8 @@
     --light-green: rgb(110, 175, 124); 
     --dark-green: rgb(57, 128, 73); 
     --gray: #bbb;
+    --light-blue: #89a8cc;
+    --dark-blue: #6497d1;
 }
 
 body {
@@ -32,6 +34,18 @@ input[type="radio"]:checked + label {
 }
 
 input[type="checkbox"] {
+    opacity: 100;
+    width: 1.6em;
+    height: 1.6em;
+}
+
+input[type="checkbox"] + span {
+    font: 1.2em sans-serif;
+    color: black;
+}
+
+/* these do not work when pushed to github pages :( */
+/* input[type="checkbox"] {
     opacity: 0;
     width: 1.6em;
     height: 1.6em;
@@ -56,7 +70,7 @@ input[type="checkbox"]:checked + span:before {
 
 input[type="checkbox"]:focus + span:before {
     outline: 1px dotted #aaa;
-}
+} */
 
 form {
     flex: 0 0 94%;
@@ -66,6 +80,17 @@ form {
 hr {
     margin-bottom: 1em;
 }
+
+/* needed when using fontawesome icons - which don't work on github */
+/* .container {
+    position: relative;
+}
+
+.container .checkbox {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+} */
 
 .app {
     width: 100%;
@@ -84,17 +109,7 @@ hr {
     justify-content: space-between;
     padding: 5px;
     font-size: 1.3em;
-    background-color: var(--light-green);
-}
-
-.container {
-    position: relative;
-}
-
-.container .checkbox {
-    position: absolute;
-    top: 2px;
-    left: 2px;
+    background-color: var(--light-blue);
 }
 
 .add-tasks {
@@ -108,7 +123,7 @@ hr {
 }
 
 .list-item:nth-of-type(2n) {
-    background-color: var(--dark-green);
+    background-color: var(--dark-blue);
 }
 
 .remove-btn {
@@ -160,7 +175,7 @@ hr {
     justify-content: center;
     font-size: 2em;
     cursor: pointer;
-    background-color: var(--dark-green);
+    background-color: var(--dark-blue);
     color: white;
 }
 
@@ -171,7 +186,7 @@ hr {
     padding: 5px 5px;
     font-size: x-large;
     font-style: italic;
-    background-color: var(--light-green);
+    background-color: var(--light-blue);
 }
 
 #add-task-container {
