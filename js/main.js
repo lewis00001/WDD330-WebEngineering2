@@ -33,8 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Team Activity',
             link: '#'
         },
-        {   
-            week: '05.2',
+        {   week: '05.2',
             name: 'Exercises/Notes',
             link: './assignments/week5ExercisesNotes.html'
         },
@@ -42,9 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Midterm - ToDo App',
             link: './assignments/toDoApp.html'
         },
-        {   week: '07.0',
-            name: 'assignment',
+        {   week: '07.1',
+            name: 'Team Activity',
             link: '#'
+        },
+        {   week: '07.2',
+            name: 'Exercises/Notes',
+            link: './assignments/ajax.html'
         },
         {   week: '08.0',
             name: 'assignment',
