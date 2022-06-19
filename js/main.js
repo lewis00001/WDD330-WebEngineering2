@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Excercises/Notes',
             link: './assignments/week8ExercisesNotes.html'
         },
-        {   week: '09.0',
-            name: 'assignment',
-            link: '#'
+        {   week: '09.1',
+            name: 'Excercises/Notes',
+            link: 'https://docs.google.com/document/d/1A0c75886J1UegaqF9jl4IF9T67WAEF1E4rdVBIIV2nk/edit?usp=sharing'
         },
         {   week: '10.0',
             name: 'assignment',
