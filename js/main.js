@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://docs.google.com/document/d/1A0c75886J1UegaqF9jl4IF9T67WAEF1E4rdVBIIV2nk/edit?usp=sharing'
         },
         {   week: '10.0',
-            name: 'assignment',
-            link: '#'
+            name: 'Excercises/Notes',
+            link: 'https://docs.google.com/document/d/1WBgdiV8vu10Yc02SyUlTJixrf2MbduJKbyuQQ6R_rJo/edit?usp=sharing'
         },
         {   week: '11.0',
             name: 'assignment',
