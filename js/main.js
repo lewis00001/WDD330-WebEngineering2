@@ -53,21 +53,9 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Excercises/Notes',
             link: 'https://docs.google.com/document/d/1WBgdiV8vu10Yc02SyUlTJixrf2MbduJKbyuQQ6R_rJo/edit?usp=sharing'
         },
-        {   week: '11.0',
-            name: 'assignment',
-            link: '#'
-        },
-        {   week: '12.0',
-            name: 'assignment',
-            link: '#'
-        },
-        {   week: '13.0',
-            name: 'assignment',
-            link: '#'
-        },
         {   week: '14.0',
-            name: 'assignment',
-            link: '#'
+            name: 'Challenge 2 - The Trade Game Repo',
+            link: 'https://github.com/lewis00001/mySQL_TradingGame'
         }
     ];
 
